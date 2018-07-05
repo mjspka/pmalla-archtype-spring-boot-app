@@ -1,0 +1,17 @@
+/build/
+/target/
+/bin/
+/docker*
+
+.settings/*
+*.log*
+.classpath
+.project
+.idea/*
+*.iml
+.externalToolBuilders/*
+.scannerwork/*
+.sonar/*
+doc/*
+.sonarqube/*
+sonar-project.properties
