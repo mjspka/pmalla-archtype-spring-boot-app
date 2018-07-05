@@ -34,8 +34,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
  *
  */
 @SpringBootApplication
-public class $ {
-	app-name}Application extends SpringBootServletInitializer{
+public class ${app-name}Application extends SpringBootServletInitializer{
 	private static Logger logger = LoggerFactory.getLogger(${app-name}Application.class);
 
 	@Autowired
