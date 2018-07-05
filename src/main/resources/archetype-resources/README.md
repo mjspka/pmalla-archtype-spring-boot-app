@@ -1,6 +1,6 @@
 # Synopsis
 
-This project is created based on daas-arch-spring-boot-app.
+This project is created based on custom archtype, pmalla-archtype-spring-boot-app.
 
 
 # Environment setup
@@ -39,9 +39,6 @@ FYI: The actual API for fetching hospital data is http://localhost:8080/hospital
 # Features
 ### Swagger
 Swagger is added to the project. All the api's that are part of this micro-service can be viewed from URL, <server-ip/host-name>:8080/swagger-ui.html
-
-###Cache
-Cache is added to the rest api. FYI: The cache will be automatically evicted every 1 minute.
 
 ###jUnits
 All the code is covered with jUnits. I have an example of integration test and also with Mock objects. The jUnit on service layer is integration test. The jUnit on controller is based of Mock objects.
